@@ -1,0 +1,35 @@
+// 
+// _message.scss
+// 
+
+.ngi-notification {
+  border-radius: 30px!important;
+  width: 100% !important;
+  margin-top: 10px!important;
+
+  & .ant-notification-notice-icon{
+    display: none;
+  }
+
+  & .ant-notification-notice-message{
+    margin: 0!important;
+  }
+
+  &.ant-notification-notice-success{
+    background: linear-gradient(180deg, #FFFFFF 0%, #E5FFEC 100%)!important;
+  }
+
+  &.ant-notification-notice-error{
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFE5E5 100%)!important;
+  }
+
+  &.ant-notification-notice-warning{
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFFBC1 100%)!important;
+  }
+}
+
+@media (max-width: 768px) {
+  .ant-notification {
+    width: 100%;
+  }
+}

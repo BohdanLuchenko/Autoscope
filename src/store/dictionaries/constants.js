@@ -1,0 +1,27 @@
+export const DICTIONARY_TYPES = {
+  DEPOT: "depot",
+  CONDITIONS: "meterCondition",
+  SPARE_PART_CATEGORY: "sparePartCategory",
+  SPARE_PART_SHIPPING_METHOD: "sparePartShippingMethod",
+  BATTERY_MODEL: "batteryModel",
+  COUNTRY: "country",
+  COUNTY: "county",
+  REGION: "region",
+  DISTRICT: "district",
+  UPLOAD_TEMPLATE: "meterUploadTemplate",
+  BATTERY_CONDITION: "batteryCondition",
+  CYLINDER_CONDITION: "cylinderCondition",
+  METER_CONDITION: "meterCondition",
+  STOVE_CONDITION: "stoveCondition",
+  TASK_CATEGORY: "taskCategory",
+  CUSTOMER_TYPE: "customerType",
+  OCCUPATION: "occupation",
+  DOCUMENT_TYPE: "documentType",
+  METER_TYPE: "meterType",
+  METER_FAULTY_REASONS_V2: "meterFaultyReasonV2",
+  METER_REPAIR_INPUT_FIELDS: "meterRepairInputFields",
+  TAM_REASONS: "TAMReasons",
+  AGENT_ROLES: "agentRoles",
+};
+
+export const BALANCE_BOOK_TRANSITION_MODE = "Stove Balance Payment Type";

@@ -1,0 +1,181 @@
+/*
+Template Name: b2c Dashboard
+Author: Joseph Daudi
+Version: 3.1.0
+Website: https://www.encipher.dev/
+Contact: jospeh@encipher.dev
+File: Custom Bootstrap Css File
+*/
+
+.sent-commands-page{
+  & .ant-col{
+    display: flex;
+  }
+  & .ant-typography{
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+  }
+}
+.meter-modal-wrapper{
+  .ant-col{
+    display: flex;
+    .ant-typography{
+      width: 180px;
+      margin-bottom: 24px;
+      display: flex;
+      align-items: center;
+    }
+    .ant-form-item{
+      flex: 1 auto;
+    }
+  }
+}
+.asset-modal,
+.lead-modal{
+  width: 650px !important;
+}
+.asset-modal-column-item,
+.meter-modal-column-item,
+.lead-modal-column-item{
+  border-bottom: 1px solid rgba(206, 212, 218, 0.63);
+  display: flex !important;
+  margin-bottom: 0.5em;
+  .meter-modal-value,
+  .lead-modal-value{
+
+  }
+  .asset-modal-title,
+  .meter-modal-title,
+  .lead-modal-title{
+    width: 200px;
+    margin-bottom: 0 !important;
+  }
+}
+
+.meter-configuration-modal{
+  .ant-typography{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-top: 20px;
+  }
+  .ant-form-item{
+    margin-bottom: 0;
+  }
+  .space-between.margin{
+    margin-bottom: 40px;
+  }
+  .conf-title{
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    position: relative;
+    &:before{
+      content:"";
+      top: 50%;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background-color: rgba(0, 0, 0, 0.05);
+    }
+    span{
+      position: relative;
+      padding-right: 10px;
+      background-color: white;
+    }
+
+  }
+}
+.comments{
+  margin-bottom: 30px;
+  .comment-text{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-bottom: 8px;
+  }
+}
+.alerts{
+  display: flex;
+  justify-content: space-between;
+  .left{
+    display: flex;
+    align-items: start;
+  }
+  .icon{
+    margin-right: 10px;
+  }
+  .text{
+    .title.fail{
+      color: rgba(255, 0, 0, 1);
+    }
+    .title{
+      text-transform: none;
+      color: rgba(23, 195, 71, 1);
+      font-family: Inter, sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 18px;
+      letter-spacing: 0.04em;
+      text-align: left;
+    }
+    .description{
+      text-transform: none;
+      color: rgba(102, 102, 102, 1);
+      font-family: Inter, sans-serif;
+      font-size: 11px;
+      font-weight: 300;
+      line-height: 18px;
+      letter-spacing: 0.04em;
+      text-align: left;
+
+    }
+  }
+}
+.meter-details{
+  padding-top: 10px;
+  .info{
+    display: flex;
+    .column{
+      width: 50%;
+    }
+  }
+  .title{
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+   text-transform: uppercase;
+    text-align: left;
+    color: #666666;
+    display: block;
+  }
+  .description{
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 18px;
+    display: block;
+  }
+}
+
+.ant-select.ant-select-focused {
+  .ant-select-selector{
+    box-shadow:none !important;
+    border-right-width: 2px !important;
+  }
+}

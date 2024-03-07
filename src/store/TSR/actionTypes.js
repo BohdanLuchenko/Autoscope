@@ -1,0 +1,3 @@
+export const GET_TSR_LIST = "GET_TSR_LIST";
+export const GET_TSR_LIST_SUCCESS = "GET_TSR_LIST_SUCCESS";
+export const GET_TSR_LIST_FAIL = "GET_TSR_LIST_FAIL";

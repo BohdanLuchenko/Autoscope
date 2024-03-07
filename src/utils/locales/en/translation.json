@@ -1,0 +1,47 @@
+{
+  "auth": {
+    "header": {
+      "title": "Service of analysis of signals recorded from motor testers and car oscilloscopes"
+    },
+    "footer": {
+      "social": "Our social networks:",
+      "support": "Write to support:",
+      "forum": "Forum",
+      "site": "Site",
+      "politics": "Privacy Policy"
+    },
+    "signIn": {
+      "confirmMessage": "Confirmation sent to your Email",
+      "confirmTitle": "You have not confirmed your mail",
+      "confirmDescription1": "You did not confirm your email during registration.",
+      "confirmDescription2": "To access the site, go to your mail and find the confirmation email. Check your spam folder",
+      "resendButton": "Send confirmation again",
+      "resendText1": "To resend - ",
+      "resendText2": "seconds",
+      "helloTitle1": "Welcome!",
+      "helloTitle2": "Sign in to continue",
+      "hintEmail": "Enter e-mail",
+      "hintPassword": "Enter password",
+      "enterButton": "Sign In",
+      "forgotMessage": "Forgot password?",
+      "noAccountText": "No account? - ",
+      "noAccountRegister": "Register"
+    },
+    "signUp": {
+      "confirmMessage": "Confirmation sent to your Email",
+      "confirmTitle": "Check your mail",
+      "confirmDescription1": "Congratulations, you are registered, there is only one thing left - to confirm your mail.",
+      "confirmDescription2": "You have been sent an email with a confirmation button.",
+      "resendButton": "Send confirmation again",
+      "resendText1": "To resend - ",
+      "resendText2": "seconds",
+      "helloTitle1": "Registration",
+      "hintEmail": "Enter e-mail",
+      "hintPassword": "Enter password",
+      "hintRePassword": "Repeat your password",
+      "enterButton": "Sign Up",
+      "textEnter": "Sign In",
+      "accountText": "Already registered? — "
+    }
+  }
+}
